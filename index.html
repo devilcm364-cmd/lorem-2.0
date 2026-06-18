@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suthan — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Suthan</a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">🌙</button>
+        <button id="nav-toggle" class="btn-icon mobile-only" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content glass">
+          <h1>Hi — I’m <span class="accent">Suthan</span></h1>
+          <p class="tagline">Frontend developer crafting minimal, performant, and delightful web experiences.</p>
+          <div class="cta">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="profile-card glass">
+            <div class="avatar">S</div>
+            <h3>Suthan</h3>
+            <p>Frontend • UI • Web</p>
+            <div class="links">
+              <a href="#projects">Projects</a>
+              <a href="#experience">Experience</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="glass about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>I build clean, accessible interfaces with attention to performance and design details. I enjoy turning ideas into polished products.</p>
+        </div>
+        <ul>
+          <li><strong>Location:</strong> Your City</li>
+          <li><strong>Role:</strong> Frontend Developer</li>
+          <li><strong>Availability:</strong> Open to opportunities</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-skill="1"><h3>HTML</h3><p>Semantic markup & accessibility</p></div>
+        <div class="skill-card" data-skill="2"><h3>CSS</h3><p>Modern CSS, Grid, Flex, Animations</p></div>
+        <div class="skill-card" data-skill="3"><h3>JavaScript</h3><p>ES6+, APIs, tooling</p></div>
+        <div class="skill-card" data-skill="4"><h3>React</h3><p>Component architecture & hooks</p></div>
+        <div class="skill-card" data-skill="5"><h3>Performance</h3><p>Optimizations & best practices</p></div>
+        <div class="skill-card" data-skill="6"><h3>Design</h3><p>UI design systems & prototyping</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Selected Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview" style="background:linear-gradient(135deg,#7c3aed,#06b6d4)"> </div>
+          <div class="project-body">
+            <h3>Project Alpha</h3>
+            <p>A minimal dashboard with real-time charts and polished UX.</p>
+            <div class="project-meta">
+              <span>React</span>
+              <a href="#" class="link">Live</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview" style="background:linear-gradient(135deg,#f97316,#ef4444)"> </div>
+          <div class="project-body">
+            <h3>Portfolio CMS</h3>
+            <p>Content-driven portfolio with markdown editor and deploy workflow.</p>
+            <div class="project-meta">
+              <span>Netlify</span>
+              <a href="#" class="link">Source</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview" style="background:linear-gradient(135deg,#06b6d4,#7c3aed)"> </div>
+          <div class="project-body">
+            <h3>Design System</h3>
+            <p>Reusable components, tokens, and documentation site.</p>
+            <div class="project-meta">
+              <span>Storybook</span>
+              <a href="#" class="link">Docs</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li class="timeline-item">
+          <strong>Frontend Developer</strong>
+          <span class="meta">Company A — 2022–Present</span>
+          <p>Built public-facing features and optimized performance across the app.</p>
+        </li>
+        <li class="timeline-item">
+          <strong>UI Engineer</strong>
+          <span class="meta">Company B — 2020–2022</span>
+          <p>Worked on component libraries and design system adoption.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="testimonials" class="section container">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <blockquote class="glass">
+          <p>"Suthan delivered a beautiful UI and thoughtful engineering work."</p>
+          <footer>— Product Manager</footer>
+        </blockquote>
+        <blockquote class="glass">
+          <p>"Reliable, communicative, and focused on quality."</p>
+          <footer>— Team Lead</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <div class="contact-grid glass">
+        <form id="contact-form">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn">Send message</button>
+            <div id="form-status" class="status" aria-live="polite"></div>
+          </div>
+        </form>
+        <div class="contact-info">
+          <h3>Let’s collaborate</h3>
+          <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+          <p>LinkedIn • GitHub • Twitter</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Suthan — Built with care.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
